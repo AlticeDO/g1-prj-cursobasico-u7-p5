@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="jsvasquez2315.com.calculadoradetiempos.MainActivity"
+    android:weightSum="1">
+
+
+    <LinearLayout
+        android:layout_width="305dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn1_fechaA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginTop="35dp"
+            android:background="#00ff00"
+            android:text="Fecha" />
+
+        <Button
+            android:id="@+id/btn2_horasA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginTop="35dp"
+            android:background="#00ff00"
+            android:text="Horas" />
+
+        <TextView
+            android:id="@+id/Atexto_fecha1"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:text="dd/MM/yyyy"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/Atexto_fecha3"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:text="hh:mm"
+            android:textSize="17sp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btn3_fechaB"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom"
+            android:background="#ffff00"
+            android:text="Fecha2" />
+
+
+        <Button
+            android:id="@+id/btn4_horasB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#ffff00"
+            android:text="Horas2"/>
+
+        <TextView
+            android:id="@+id/Btexto_fecha2"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:text="dd/MM/yyyy"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/Btexto_fecha4"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:text="hh:mm"
+            android:textSize="17sp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="317dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.05"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/Ctexto_Calcular3"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="40sp" />
+
+    <Button
+        android:id="@+id/btn5_CalcularC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="calcular" />
+</LinearLayout>
